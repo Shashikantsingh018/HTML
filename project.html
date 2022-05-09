@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Registration page of conference of machine learning</title>
+ <style>
+ .registerbtn {
+ background-color: darkorange;
+ color: white;
+ padding: 16px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 10%;
+ opacity: 0.9;
+ margin-left: 35%;
+ }
+
+ .registerbtn:hover {
+ opacity: 1;
+ }
+ </style>
+</head>
+<body
+ style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; background-image: url(https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);background-position: center;background-repeat: no-repeat;background-size: cover;">
+ <div style="text-align: center; background-color: darkmagenta;"><b><em>
+ <h1>School of Computer Engineering</h1>
+ </em></b></div>
+ <h3>
+ <marquee bgcolor="yellow" style="color:black;">Registration page of conference on machine learning </marquee>
+ </h3>
+
+
+ <form>
+
+ <table>
+ <tr>
+ <td>
+ <div style="margin-left: 0%;">
+
+ 1. Name :
+ <input type="text" placeholder="First Name">&nbsp;
+ <input type="text" placeholder="Middle Name">&nbsp;
+ <input type="text" placeholder="Last Name"><br><br>
+ 2. Gender :
+ <input type="radio" id="gender" name="gender" value="Male">Male
+ <input type="radio" id="gender" name="gender" value="Female">Female<br><br>
+ 3. DOB<input type="date" id="birthday"><br><br>
+
+
+
+ 4.Country : <label for="Country"></label>
+ <select id="Country" name="country">
+ <option value="Select">select Country</option>
+ <option value="India">India</option>
+ <option value="America">America</option>
+ <option value="Japan">Japan</option>
+ <option value="Chaina">Chaina</option>
+ <option value="Rusia">Rusia</option>
+ <option value="Pakistan">Pakistan</option>
+ <option value="Nepal">Nepal</option>
+ <option value="Shri Lanka">Shri Lanka</option>
+ </select><br><br>
+ 4.University : <label for="University"></label>
+ <select id="University" name="University">
+ <option value="Select">select University</option>
+ <option value="Lpu">Lovely proffessional University</option>
+ <option value="oth">Other</option>
+ </select><br><br>
+ 5. Phone No.:
+ <input type="number"><br><br>
+ 6. Email :
+ <input type="email" placeholder="Email id"><br><br>
+
+ </div>
+ </td>
+ <td style="float: right;">
+ <div>
+ 7. ID Proof : <br>
+ <input type="checkbox">Addhar
+ <input type="checkbox">Driving Licence
+ <input type="checkbox">Pan Card
+ <input type="checkbox">Voter ID Card<br>
+ <input type="text" placeholder="Enter id number"><br>
+ 8. Qualification : <br>
+ <input type="checkbox"> Graduate <br><input type="file"><br>
+ <input type="checkbox"> Master Graduate <br><input type="file"><br>
+ 9. Photo <br><input type="file" placeholder="Upload Image"><br>
+ <input type="checkbox">I hereby declare that the information given above and in the <br>
+ enclosed documents is true to the best of my knowledge <br>and belief and
+ nothing has been concealed therein. I am well<br> aware of the fact that if the
+ information given by me is proved false/not true,<br> I will have to face the
+ punishment as per the law. Also, all the benefits availed <br>by me shall be
+ summarily withdrawn.
+
+ </div>
+ </td>
+ </tr>
+ </table>
+ <button type="submit" class="registerbtn">Register</button>
+ </form>
+
+</body>
+
+</html>
